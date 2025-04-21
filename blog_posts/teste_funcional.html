@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Funcional - Capítulo 2</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="topbar">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="#introducao">Introdução</a></li>
+                        <li><a href="#metodologia">Metodologia</a></li>
+                        <li><a href="#resultados">Resultados</a></li>
+                        <li><a href="#sobre">Sobre o Autor</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="banner">
+                <h1><span class="logo">Título do TCC: Nome do Projeto</span></h1>
+                <p>Postagens de estudo e desenvolvimento</p>
+            </div>
+        </header>
+
+        <main class="container">
+            <article class="full-post">
+                <h2>Entendendo o Teste Funcional</h2>
+                <p class="meta">
+                    <span class="categoria">QUALIDADE DE SOFTWARE</span> | 
+                    <span class="data">Postado em 17/04/2025</span>
+                </p>
+
+                <img src="img/functionalTest.png" alt="Ilustração de teste funcional" class="post-banner" style="width: 60%; display: block; margin: 0 auto;">
+
+                <p>O <strong>teste funcional</strong> é uma das abordagens mais utilizadas para garantir que o software esteja de acordo com o que foi especificado. Neste tipo de teste, tratamos o programa como uma <em>caixa-preta</em>: avaliamos somente suas <strong>entradas e saídas</strong>, sem nos preocupar com sua lógica interna.</p>
+
+                <h3>Por que isso importa?</h3>
+                <p>Porque essa técnica permite verificar se os requisitos do sistema estão sendo realmente atendidos. Mesmo sem conhecer o código, conseguimos identificar se o comportamento do software está correto para diferentes cenários.</p>
+
+                <h3>Particionamento de Equivalência</h3>
+                <p>Um dos critérios mais usados no teste funcional é o <strong>particionamento de equivalência</strong>, que divide o domínio de entrada em classes onde os dados se comportam de forma semelhante. Assim, conseguimos escolher poucos casos de teste representativos e ainda assim cobrir bem o sistema.</p>
+
+                <h3>Análise do Valor Limite</h3>
+                <p>Outra técnica complementar é a <strong>análise de valor limite</strong>, que foca nos extremos dos intervalos — já que os erros costumam aparecer justamente nessas bordas.</p>
+
+                <h3>Aplicação prática</h3>
+                <p>Imagine um programa que aceita números de 1 a 20. Em vez de testar todos os números, você testaria:</p>
+                <ul>
+                    <li>Um número dentro do intervalo (ex: 10)</li>
+                    <li>Os limites (1 e 20)</li>
+                    <li>Valores fora do intervalo (0 e 21)</li>
+                </ul>
+                <p>Simples e eficiente!</p>
+
+                <blockquote>
+                    “Nem sempre é possível testar tudo — por isso, escolher bem os casos de teste faz toda a diferença.”
+                </blockquote>
+
+                <p>O teste funcional é uma estratégia poderosa porque é baseada nos requisitos do sistema, sendo útil em diferentes fases do desenvolvimento e para qualquer linguagem de programação.</p>
+
+                <hr>
+
+                <p class="autor">
+                    Conteúdo baseado no Capítulo 2 de <em>“Introdução ao Teste de Software”</em><br>
+                    Autores: Márcio Delamaro, José Maldonado e Mario Jino.
+                </p>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
