@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.topbar {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.topbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.banner {
+    background: linear-gradient(to right, #333, #555);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 5px 0;
+}
+
+.content {
+    width: 80%;
+    padding: 0 20px;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-bar input,
+.filter-bar select,
+.filter-bar button {
+    padding: 8px;
+}
+
+.posts {
+    display: flex;
+    gap: 20px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 48%;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post-info {
+    padding: 10px;
+}
+
+.categoria {
+    font-size: 0.8em;
+    color: #007BFF;
+    display: block;
+}
+
+.data {
+    font-size: 0.75em;
+    color: #999;
+    display: block;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.wrapper {
+    max-width: 1300px; /* ou 1000px, ajuste como quiser */
+    margin: 0px auto; /* centraliza e dá espaço no topo */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+.full-post {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.full-post h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.full-post h3 {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.full-post p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.full-post .meta {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.post-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+blockquote {
+    border-left: 4px solid #007BFF;
+    padding-left: 15px;
+    color: #555;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.autor {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 30px;
+    text-align: right;
+}
+
+a.post-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
